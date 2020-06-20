@@ -1,0 +1,11 @@
+nexus：
+http://192.168.0.120:8081/#browse/search
+
+nacos：
+test：http://192.168.0.150:8849/nacos/#/login
+
+gitlab:
+http://192.168.0.120:8090/
+
+xxladmin：
+test：http://192.168.0.150:8082/xxl-job-admin/toLogin
