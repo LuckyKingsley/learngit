@@ -4,9 +4,4 @@ o.s.w.s.DispatcherServlet-POST "/upl/uplFile", parameters={}
 2020-06-17 14:13:29.464 [http-nio-4002-exec-2] DEBUG    o.s.w.s.m.m.a.ServletInvocableHandlerMethod-Could not resolve parameter [0] in public java.lang.String com.jcxx.ics.file.server.facade.UploadFacadeImpl.uploadFile(org.springframework.web.multipart.MultipartFile) throws java.io.IOException: Required request part 'file' is not present
 2020-06-17 14:13:29.465 [http-nio-4002-exec-2] WARN     o.s.w.s.m.s.DefaultHandlerExceptionResolver-Resolved [org.springframework.web.multipart.support.MissingServletRequestPartException: Required request part 'file' is not present]
 2020-06-17 14:13:29.465 [http-nio-4002-exec-2] DEBUG    o.s.w.s.DispatcherServlet-Completed 400 BAD_REQUEST
-2020-06-17 14:13:29.473 [http-nio-4002-exec-2] DEBUG    o.s.w.s.DispatcherServlet-"ERROR" dispatch for POST "/error", parameters={}
-2020-06-17 14:13:29.473 [http-nio-4002-exec-2] DEBUG    s.d.s.w.PropertySourcedRequestMappingHandlerMapping-looking up handler for path: /error
-2020-06-17 14:13:29.477 [http-nio-4002-exec-2] DEBUG    o.s.w.s.m.m.a.RequestMappingHandlerMapping-Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
-2020-06-17 14:13:29.488 [http-nio-4002-exec-2] DEBUG    o.s.w.s.m.m.a.HttpEntityMethodProcessor-Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2020-06-17 14:13:29.489 [http-nio-4002-exec-2] DEBUG    o.s.w.s.m.m.a.HttpEntityMethodProcessor-Writing [{timestamp=Wed Jun 17 14:13:29 CST 2020, status=400, error=Bad Request, message=Required request part 'file' is not present, path=/upl/uplFile}]
-2020-06-17 14:13:29.503 [http-nio-4002-exec-2] DEBUG    o.s.w.s.DispatcherServlet-Exiting from "ERROR" dispatch, status 400
+2] DEBUG    o.s.w.s.DispatcherServlet-Exiting from "ERROR" dispatch, status 400
